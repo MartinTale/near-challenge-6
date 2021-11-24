@@ -52,6 +52,50 @@ main {
   max-width: 25em;
 }
 
+.step {
+  display: flex;
+  width: 100%;
+  background: #191919;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.step-number {
+  font-size: 4rem;
+  padding: 0 1rem;
+  margin-top: 0.75rem;
+}
+
+.step-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.step-desc {
+  margin-bottom: 1rem;
+}
+
+.step-form {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.step-form button {
+  background-color: #111;
+  padding: 1rem 2rem;
+}
+
+.step-form input {
+  width: 100%;
+}
+
 .avatar-select {
   display: flex;
     flex-direction: row-reverse;
